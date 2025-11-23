@@ -45,7 +45,7 @@
             // 
             this.button_Doctor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button_Doctor.BackgroundImage")));
             this.button_Doctor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_Doctor.Location = new System.Drawing.Point(138, 190);
+            this.button_Doctor.Location = new System.Drawing.Point(101, 190);
             this.button_Doctor.Name = "button_Doctor";
             this.button_Doctor.Size = new System.Drawing.Size(149, 134);
             this.button_Doctor.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             this.button_Nurse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button_Nurse.BackgroundImage")));
             this.button_Nurse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_Nurse.Location = new System.Drawing.Point(484, 190);
+            this.button_Nurse.Location = new System.Drawing.Point(447, 190);
             this.button_Nurse.Name = "button_Nurse";
             this.button_Nurse.Size = new System.Drawing.Size(149, 134);
             this.button_Nurse.TabIndex = 1;
@@ -65,18 +65,19 @@
             // 
             this.button_Hasta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button_Hasta.BackgroundImage")));
             this.button_Hasta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_Hasta.Location = new System.Drawing.Point(311, 190);
+            this.button_Hasta.Location = new System.Drawing.Point(274, 190);
             this.button_Hasta.Name = "button_Hasta";
             this.button_Hasta.Size = new System.Drawing.Size(149, 134);
             this.button_Hasta.TabIndex = 2;
             this.button_Hasta.UseVisualStyleBackColor = true;
+            this.button_Hasta.Click += new System.EventHandler(this.button_Hasta_Click);
             // 
             // label_Hasta
             // 
             this.label_Hasta.AutoSize = true;
             this.label_Hasta.Font = new System.Drawing.Font("Playball", 24F, System.Drawing.FontStyle.Bold);
             this.label_Hasta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_Hasta.Location = new System.Drawing.Point(341, 336);
+            this.label_Hasta.Location = new System.Drawing.Point(304, 336);
             this.label_Hasta.Name = "label_Hasta";
             this.label_Hasta.Size = new System.Drawing.Size(94, 40);
             this.label_Hasta.TabIndex = 3;
@@ -87,7 +88,7 @@
             this.label_Doktor.AutoSize = true;
             this.label_Doktor.Font = new System.Drawing.Font("Playball", 24F, System.Drawing.FontStyle.Bold);
             this.label_Doktor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_Doktor.Location = new System.Drawing.Point(163, 336);
+            this.label_Doktor.Location = new System.Drawing.Point(126, 336);
             this.label_Doktor.Name = "label_Doktor";
             this.label_Doktor.Size = new System.Drawing.Size(106, 40);
             this.label_Doktor.TabIndex = 4;
@@ -98,7 +99,7 @@
             this.label_Sekreter.AutoSize = true;
             this.label_Sekreter.Font = new System.Drawing.Font("Playball", 24F, System.Drawing.FontStyle.Bold);
             this.label_Sekreter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_Sekreter.Location = new System.Drawing.Point(499, 336);
+            this.label_Sekreter.Location = new System.Drawing.Point(462, 336);
             this.label_Sekreter.Name = "label_Sekreter";
             this.label_Sekreter.Size = new System.Drawing.Size(118, 40);
             this.label_Sekreter.TabIndex = 5;
