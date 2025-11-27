@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HastaneYonetim
 {
-    public partial class FrmHasta : Form
+    public partial class FrmHastaGiris : Form
     {
-        public FrmHasta()
+        public  FrmHastaGiris()
         {
             InitializeComponent();
         }

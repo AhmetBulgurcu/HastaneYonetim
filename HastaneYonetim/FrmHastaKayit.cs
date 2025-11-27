@@ -12,9 +12,9 @@ namespace HastaneYonetim
 {
     public partial class FrmHastaKayit : Form
     {
-        public FrmHastaKayit()
-        {
-            InitializeComponent();
-        }
+        public FrmHastaKayit() => InitializeComponent();
+
+
+
     }
 }

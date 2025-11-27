@@ -1,6 +1,6 @@
 ﻿namespace HastaneYonetim
 {
-    partial class FrmHasta
+    partial class FrmHastaGiris
     {
         /// <summary>
         /// Required designer variable.

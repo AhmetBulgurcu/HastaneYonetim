@@ -24,7 +24,7 @@ namespace HastaneYonetim
 
         private void button_Hasta_Click(object sender, EventArgs e)
         {
-            FrmHasta HastaPage = new FrmHasta();
+            FrmHastaGiris HastaPage = new FrmHastaGiris();
             HastaPage.Show();
             this.Hide();
         }
